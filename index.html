@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CREDO WEBPAGE
+        </title>
+        <link rel="stylesheet" href="styling/main.css">
+        
+    </head>
+    <body>
+        <header>
+            <h2 align = "center">CREDO CHAKWIRA : CHANCO STUDENT</h2>
+            <img src="images/crey.jpg" alt="display pic">
+            <a href="www.facebook.com"><img src="images/facebook.jpg"height="150"title="pochezera"</a>
+            <a href="mailto:bsc-87-16@cc.ac.mw"><img src="images/gmail.jpg"height="150"title ="Email credo"</a>
+            <a href="www.github.com"><img src="images/github.jpg"height="150"title="assignment upload"</a>
+            <a href="www.instagram.com"><img src="images/instagram.jpg"height"150"</a>
+    
+
+        </header>
+        
+        <div id = "form1">
+            <form id = "project">
+                <fieldset>
+                    <legend>PROJECT INFORMATION</legend>
+                    <label>PROJECT NAME</label>
+                    <input type="text" name="projectName">
+                    <br>
+                    <label>PROJECT DETAILS</label>
+                    <input type="text" id="projectDetails" name="details"required>
+                    <br>
+                    <label>BEGINNING DATE</label>
+                    <input type="date" name="date">
+                    <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+          <!--a container to display the projects entered-->
+          <div class="display_projects"> 
+            <h2 align = "center">PROJECTS LIST</h2>
+            <ul id="project_list">
+               
+            </ul>
+          </div>
+        <div id="list_projects"></div>
+
+        <div class = "work_experience">
+            <form id = "work_experience"name="qform">
+                    <fieldset>
+                            <legend>WORK INVOLVED IN</legend>
+                            <strong>kind of the work:</strong>
+                            <label>COMPANY/INSTITUTION EMPLOYED AT</label>
+                            <input type="text" name="work type"placeholder= "kind of the work">
+                            <br/>
+                            <label>WORK DETAILS</label>
+                            <br>
+                            <textarea cols = "40" rows="12" name="work_details" placeholder="type work experience" required></textarea>
+                            <br>
+                            <input type="text" id="WORK DETAILS" name="work type">
+                            <br>
+                            <label>BEGINNING DATE</label>
+                            <input type="date" name="BEGINNING date">
+                            <br>
+                            <input type="submit"value="click to submit"id = "button">
+                        </fieldset>
+
+        </div>
+        <div class="display_work_experience">
+            <h2 align = "center">TYPES OF WORK INVOLVED</h2>
+            <ul id ="work_experince">
+
+            </ul>
+    </div>
+        <script src="javcript/script.js" lang="javascript" type="text/javascript"></script>
+    </body>
+
+</html>
